@@ -55,7 +55,7 @@ html{
 body{
     font-size: 1.6rem;
     font-family: var(--font-primary);
-    background: var(--color-gray-1);
+    background: var(--color-white);
 }
 
 h1,
@@ -148,6 +148,7 @@ h6 {
 }
 .recipe-list-item {
     max-width: 64rem;
+    height: fit-content;
 }
 
 .recipe-list-item:hover {
@@ -221,6 +222,10 @@ h6 {
 .main-content-detail .recipe-list-item:hover {
     transform: scale(1);
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.preparation-steps {
+    padding: var(--spacing-gutter-medium);
 }
 
 .main-footer {
